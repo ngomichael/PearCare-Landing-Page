@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  justify-content: center;
+  border-top: 7px solid #3e5a92;
+  background: rgb(255, 255, 255);
+  padding: 1rem 1rem 0 0;
+  margin-bottom: 1.45rem;
+  box-shadow: 0 4px 6px hsla(0, 0%, 0%, 0.2);
+}
+
+.nameAndNavContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1440px;
+}
+
+.productName {
+  color: hsl(228, 21%, 31%);
+  font-size: 30px;
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  list-style: none;
+}
+
+.navButton {
+  color: hsl(228, 21%, 31%);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+@media (max-width: var(--tablet)) {
+}
+
+@media (min-width: var(--tablet)) {
+}
