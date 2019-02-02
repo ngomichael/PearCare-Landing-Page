@@ -6,7 +6,9 @@ const nav = ['Problem', 'Features', 'Team']
 const Header = () => (
   <header className={styles.container}>
     <div className={styles.nameAndNavContainer}>
-      <h1 className={styles.productName}>PearCare</h1>
+      <h1 className={styles.productName}>
+        Pear<i>Care</i>
+      </h1>
       <ul className={styles.navContainer}>
         {nav.map(text => (
           <li className={styles.navButton}>{text}</li>
