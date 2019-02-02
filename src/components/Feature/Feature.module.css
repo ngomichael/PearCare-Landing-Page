@@ -1,0 +1,29 @@
+.container {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+.icon {
+  width: 75px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+
+.featureContainer {
+  width: 275px;
+}
+
+.featureName {
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.featureDescription {
+  font-size: 14px;
+  line-height: 1.45;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}

@@ -1,10 +1,15 @@
 import React from 'react'
 import styles from './Feature.module.css'
+import pikachu from '../../images/pikachu.jpg'
 
-const Feature = () => {
+const Feature = ({ feature }) => {
   return (
-    <div>
-      <h1>Hello</h1>
+    <div className={styles.container}>
+      <img src={feature.icon} className={styles.icon} />
+      <div className={styles.featureContainer}>
+        <h1 className={styles.featureName}>{feature.name}</h1>
+        <p className={styles.featureDescription}>{feature.description}</p>
+      </div>
     </div>
   )
 }
