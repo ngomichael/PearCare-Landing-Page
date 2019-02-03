@@ -1,14 +1,16 @@
 .container {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
-  width: 50%;
 }
 
 .featuresContainer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  width: 75%;
+  max-width: 1400px;
 }
 
 .title {
