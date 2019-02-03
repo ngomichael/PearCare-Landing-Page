@@ -5,6 +5,12 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fortawesome/fontawesome-common-types": "^0.2.14",
+    "@fortawesome/fontawesome-svg-core": "^1.2.14",
+    "@fortawesome/free-brands-svg-icons": "^5.7.1",
+    "@fortawesome/free-solid-svg-icons": "^5.7.1",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "@material-ui/core": "^3.9.1",
     "gatsby": "^2.0.105",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-manifest": "^2.0.15",
@@ -16,6 +22,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
+    "react-fontawesome": "^1.6.1",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
