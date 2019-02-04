@@ -1,6 +1,5 @@
 .container {
   margin-bottom: 55px;
-  margin-right: 5px;
 }
 
 .icon {
@@ -29,5 +28,35 @@
 @media (max-width: 1040px) {
   .valuePropContainer {
     width: 190px;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 768px) {
+  .valuePropContainer {
+    width: 295px;
+  }
+
+  .valuePropName {
+    font-size: 24px;
+  }
+
+  .valuePropDescription {
+    font-size: 16px;
+  }
+
+  .icon {
+    width: 75px;
+    min-width: 75px;
+  }
+}
+
+@media (max-width: 379px) {
+  .valuePropContainer {
+    width: 190px;
+  }
+
+  .icon {
+    width: 65px;
+    min-width: 65px;
   }
 }
