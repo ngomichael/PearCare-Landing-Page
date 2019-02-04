@@ -2,12 +2,23 @@ import React from 'react'
 import Grid from '@material-ui/core/Grid'
 import Fab from '@material-ui/core/Fab'
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles'
-import { lightBlue } from '@material-ui/core/colors'
 
 const theme = createMuiTheme({
-  palette: {
-    primary: lightBlue,
-  }
+  overrides: {
+    MuiFab: {
+      // override root styles for the button component.
+      root: {
+        // Name of the rule
+        background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+        borderRadius: 3,
+        color: 'white',
+        maxHeight: 150,
+        maxWidth: 175,
+        padding: '5px 30px',
+        marginLeft: 140,
+      },
+    },
+  },
 })
 
 class HeroSection extends React.Component {
@@ -22,17 +33,15 @@ class HeroSection extends React.Component {
               No more waiting: no more problems.{' '}
             </p>
             <MuiThemeProvider theme={theme}>
-            <div class="hero-button">
               <Fab variant="extended" color="primary" aria-label="Add">
                 Learn More
               </Fab>
-            </div>
             </MuiThemeProvider>
           </Grid>
           <Grid container direction="column" justify="center" xs={4}>
             <img
               id="hero-image"
-              src={require('../images/cute-pear.jpg')}
+              src={require('../images/cute_pear.png')}
               alt="cute pear logo"
             />
           </Grid>
