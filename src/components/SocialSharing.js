@@ -17,19 +17,15 @@ class SocialSharing extends React.Component {
   render() {
     return (
 <div>
-        <Typography
-          variant="h6"
-          align="center"
-          gutterBottom
-        >
-          Share PearCare on Social Media!
-        </Typography>
-   
+        
+          <h1> Share PearCare on Social Media! </h1>
+      
 
-        <Grid container  container
+        <Grid container  
             direction="row"
             justify="center"
             >
+    
           <Grid item xs={2}>
             <FontAwesomeIcon icon={['fab', 'facebook-f']} className="facebook icon"  />
           </Grid>

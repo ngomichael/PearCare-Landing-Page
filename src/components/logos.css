@@ -1,3 +1,21 @@
+
+/* HERO SECTION */
+
+#hero {
+  margin-top:5em;
+}
+
+#hero-image {
+  margin-left:5em;
+  min-height:250px;
+  min-width: 300px;
+}
+
+.hero-button {
+  margin-left:7em;
+}
+
+/* ICONS FOR SOCIAL SHARING */
 .instagram {
     text-align: center;
     border-radius: 40px;
@@ -36,4 +54,6 @@
 
     
   }
+
+
 
