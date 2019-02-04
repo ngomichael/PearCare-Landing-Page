@@ -7,8 +7,7 @@
 
 .icon {
   width: 75px;
-  height: 60px;
-  border-radius: 50%;
+  min-width: 75px;
   margin-right: 25px;
 }
 
@@ -27,4 +26,32 @@
   line-height: 1.45;
   letter-spacing: 0.05em;
   font-weight: 400;
+}
+
+@media (max-width: 1040px) {
+  .featureContainer {
+    width: 190px;
+  }
+}
+
+@media (min-width: 380px) and (max-width: 768px) {
+  .featureName {
+    font-size: 24px;
+  }
+
+  .featureDescription {
+    font-size: 16px;
+  }
+
+  .icon {
+    width: 75px;
+    min-width: 75px;
+  }
+}
+
+@media (max-width: 379px) {
+  .icon {
+    width: 65px;
+    min-width: 65px;
+  }
 }

@@ -1,0 +1,33 @@
+.container {
+  margin-bottom: 55px;
+  margin-right: 5px;
+}
+
+.icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+}
+
+.valuePropContainer {
+  width: 255px;
+}
+
+.valuePropName {
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.valuePropDescription {
+  font-size: 14px;
+  line-height: 1.45;
+  letter-spacing: 0.05em;
+  font-weight: 400;
+}
+
+@media (max-width: 1040px) {
+  .valuePropContainer {
+    width: 190px;
+  }
+}
