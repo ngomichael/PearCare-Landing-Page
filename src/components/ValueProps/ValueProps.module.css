@@ -6,11 +6,11 @@
   /* max-width: 1400px; */
 }
 
-.featuresContainer {
+.valuePropsContainer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 80%;
+  /* width: 80%; */
 }
 
 .title {
@@ -19,7 +19,7 @@
 }
 
 @media (max-width: 768px) {
-  .featuresContainer {
+  .valuePropsContainer {
     width: 40%;
   }
 }

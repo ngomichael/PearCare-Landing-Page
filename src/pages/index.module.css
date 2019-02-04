@@ -1,4 +1,18 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .features {
   display: flex;
   justify-content: center;
+  max-width: 1400px;
+}
+
+.valueProps {
+  display: flex;
+  justify-content: center;
+  max-width: 1400px;
 }

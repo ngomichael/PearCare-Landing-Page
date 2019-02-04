@@ -4,14 +4,20 @@ import styles from './index.module.css'
 
 import Layout from '../components/layout'
 import Features from '../components/Features/Features'
+import ValueProps from '../components/ValueProps/ValueProps'
 import SEO from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <section className={styles.features}>
-      <Features />
-    </section>
+    <div className={styles.container}>
+      <section className={styles.features}>
+        <Features />
+      </section>
+      {/* <section className={styles.valueProps}>
+        <ValueProps />
+      </section> */}
+    </div>
   </Layout>
 )
 
