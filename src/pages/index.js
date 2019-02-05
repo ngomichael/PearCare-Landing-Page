@@ -11,11 +11,11 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className={styles.container}>
-      <section className={styles.features}>
-        <Features />
-      </section>
       <section className={styles.valueProps}>
         <ValueProps />
+      </section>
+      <section className={styles.features}>
+        <Features />
       </section>
       <section className={styles.valueProps}>
         <Members />
