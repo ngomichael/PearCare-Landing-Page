@@ -1,30 +1,14 @@
 import React from 'react'
 import styles from './Member.module.css'
-import Michael from '../../images/michael.jpg'
 
-// const Member = ({ member }) => {
-//   return (
-//     <div>
-//       <h1>PearCare Team</h1>
-//       <div>
-//         <img src={member.picture} />
-//         <p>{member.name}</p>
-//         <p>{member.role}</p>
-//       </div>
-//     </div>
-//   )
-// }
-
-const Member = ({}) => {
+const Member = ({ member }) => {
+  console.log(member)
   return (
-    <div>
-      <h1>PearCare Team</h1>
-      <div>
-        <img src={Michael} className={styles.image} />
-        <div className={styles.informationContainer}>
-          <p className={styles.name}>Michael Ngo</p>
-          <p className={styles.role}>Full-Stack Developer</p>
-        </div>
+    <div className={styles.container}>
+      <img src={member.picture} className={styles.image} />
+      <div className={styles.informationContainer}>
+        <p className={styles.name}>{member.name}</p>
+        <p className={styles.role}>{member.role}</p>
       </div>
     </div>
   )

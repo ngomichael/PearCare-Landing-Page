@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './Features.module.css'
 import Feature from '../Feature/Feature'
-import pikachu from '../../images/pikachu.jpg'
 import searchIcon from '../../icons/search.svg'
 import messageIcon from '../../icons/message-circle.svg'
 
