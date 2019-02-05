@@ -15,6 +15,11 @@
   height: 100px;
 }
 
+.socialMediaLink {
+  color: black;
+  text-decoration: none;
+}
+
 .facebookIcon:hover {
   color: #3c5a99;
   cursor: pointer;
