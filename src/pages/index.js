@@ -4,8 +4,7 @@ import styles from './index.module.css'
 
 import Layout from '../components/layout'
 import Features from '../components/Features/Features'
-// import Members from '../components/Members/Members'
-import Member from '../components/Member/Member'
+import Members from '../components/Members/Members'
 import ValueProps from '../components/ValueProps/ValueProps'
 import SEO from '../components/seo'
 
@@ -19,10 +18,9 @@ const IndexPage = () => (
       {/* <section className={styles.valueProps}>
         <ValueProps />
       </section> */}
-      <Member />
-      {/* <section>
+      <section className={styles.valueProps}>
         <Members />
-      </section> */}
+      </section>
     </div>
   </Layout>
 )
