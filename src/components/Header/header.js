@@ -1,7 +1,20 @@
 import React from 'react'
 import styles from './header.module.css'
 
-const nav = ['Problem', 'Features', 'Team']
+const navLinks = [
+  {
+    title: 'Problem',
+    id: 'values',
+  },
+  {
+    title: 'Features',
+    id: 'features',
+  },
+  {
+    title: 'Team',
+    id: 'team',
+  },
+]
 
 const Header = () => (
   <header className={styles.container}>
@@ -10,8 +23,8 @@ const Header = () => (
         Pear<i>Care</i>
       </h1>
       <ul className={styles.navContainer}>
-        {nav.map(text => (
-          <li className={styles.navButton}>{text}</li>
+        {navLinks.map(link => (
+          <li className={styles.navButton}>{link.title}</li>
         ))}
       </ul>
     </div>
