@@ -3,13 +3,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  width: 100%;
 }
 
 .membersContainer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 77%;
+  width: 75%;
 }
 
 .title {

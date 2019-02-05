@@ -9,7 +9,9 @@
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  border-bottom: 1px solid hsl(228, 14%, 79%);
   width: 77%;
+  margin-bottom: 75px;
 }
 
 .title {
