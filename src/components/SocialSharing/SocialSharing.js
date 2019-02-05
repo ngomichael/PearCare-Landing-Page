@@ -7,7 +7,7 @@ import twitterIcon from '../../icons/twitter.svg'
 const SocialSharing = () => {
   return (
     <footer className={styles.container}>
-      <h1>Share PearCare on Social Media!</h1>
+      {/* <h1>Share PearCare on Social Media!</h1> */}
       <div className={styles.iconsContainer}>
         <img src={facebookIcon} className={styles.icon} />
         <img src={instagramIcon} className={styles.icon} />
