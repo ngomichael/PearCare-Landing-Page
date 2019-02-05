@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+  width: 70%;
+  /* margin-bottom: 150px; */
+}
+
+.image {
+  background-color: hsl(228, 14%, 79%);
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+
+.tagline {
+  width: 50%;
+}
