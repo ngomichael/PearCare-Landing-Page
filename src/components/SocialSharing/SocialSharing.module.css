@@ -18,16 +18,19 @@
 .facebookIcon:hover {
   color: #3c5a99;
   cursor: pointer;
+  transition: color 300ms ease;
 }
 
 .instagramIcon:hover {
   color: #833ab4;
   cursor: pointer;
+  transition: color 300ms ease;
 }
 
 .twitterIcon:hover {
   color: #1da1f2;
   cursor: pointer;
+  transition: color 300ms ease;
 }
 
 @media (max-width: 379px) {
