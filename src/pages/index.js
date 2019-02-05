@@ -15,9 +15,9 @@ const IndexPage = () => (
       <section className={styles.features}>
         <Features />
       </section>
-      {/* <section className={styles.valueProps}>
+      <section className={styles.valueProps}>
         <ValueProps />
-      </section> */}
+      </section>
       <section className={styles.valueProps}>
         <Members />
       </section>
