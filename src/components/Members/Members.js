@@ -9,7 +9,7 @@ import Member from '../Member/Member'
 const members = [
   {
     name: 'Michael Ngo',
-    role: 'Front-End Developer',
+    role: 'Full-Stack Developer',
     picture: michaelPhoto,
   },
   {
@@ -24,7 +24,7 @@ const members = [
   },
   {
     name: 'Daniel Colina',
-    role: 'Front-End Developer',
+    role: 'Full-Stack Developer',
     picture: danielPhoto,
   },
 ]
