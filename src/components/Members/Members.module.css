@@ -5,15 +5,13 @@
   flex-direction: column;
   width: 100%;
   padding: 200px 0 200px 0;
-  /* height: 800px; */
 }
 
 .membersContainer {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  width: 75%;
-  /* margin-bottom: 150px; */
+  width: 80%;
 }
 
 .title {
