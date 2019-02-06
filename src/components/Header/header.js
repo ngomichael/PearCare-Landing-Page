@@ -33,13 +33,7 @@ const Header = () => (
       <ul className={styles.navContainer}>
         {navLinks.map(link => (
           <li className={styles.navButton}>
-            <Link
-              to={link.name}
-              activeClass={styles.active}
-              smooth={true}
-              duration={1000}
-              delay={0}
-            >
+            <Link to={link.name} smooth={true} duration={1000} delay={0}>
               {link.title}
             </Link>
           </li>

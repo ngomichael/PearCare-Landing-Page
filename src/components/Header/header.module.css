@@ -40,10 +40,6 @@
   cursor: pointer;
 }
 
-.active {
-  color: #71da71;
-}
-
 @media (max-width: 768px) {
   .productName {
     font-size: 22px;

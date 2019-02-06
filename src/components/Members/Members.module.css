@@ -19,3 +19,9 @@
 .title {
   margin-bottom: 75px;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding: 100px 0 100px 0;
+  }
+}
