@@ -9,7 +9,6 @@ const Hero = () => {
           Better patient-provider pairs, better mental healthcare
         </h1>
       </div>
-      <div className={styles.image} />
     </div>
   )
 }

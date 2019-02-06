@@ -80,9 +80,8 @@ const ValueProps = () => {
         <p className={styles.description}>
           Searching for mental health services and finding a provider that fits
           any given patient’s needs can be an overwhelming and time-consuming
-          process. Our solution aims to quickly and easily match patients with
-          providers by breaking down what patients are looking for and using a
-          matching algorithm to find providers that fit those needs
+          process. PearCare's matching algorithm intends to personalize every
+          individual’s experience when searching for a provider
         </p>
       </div>
       <div className={styles.valuePropsContainer}>
