@@ -1,20 +1,34 @@
 import React from 'react'
-import { Link } from 'gatsby'
-
+import styles from './index.module.css'
+import { Element } from 'react-scroll'
 import Layout from '../components/layout'
-import Image from '../components/image'
+import Hero from '../components/Hero/Hero'
+import ValueProps from '../components/ValueProps/ValueProps'
+import Features from '../components/Features/Features'
+import Members from '../components/Members/Members'
+import Separater from '../components/Separater/Separater'
 import SEO from '../components/seo'
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className={styles.container}>
+      <Element className={styles.hero}>
+        <Hero />
+      </Element>
+      <Separater />
+      <Element className={styles.valueProps} name="ValueProps">
+        <ValueProps />
+      </Element>
+      <Separater />
+      <Element className={styles.features} name="Features">
+        <Features />
+      </Element>
+      <Separater />
+      <Element className={styles.valueProps} name="Team">
+        <Members />
+      </Element>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
