@@ -1,13 +1,6 @@
 import React from 'react'
 import styles from './index.module.css'
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from 'react-scroll'
+import { Element } from 'react-scroll'
 import Layout from '../components/layout'
 import Hero from '../components/Hero/Hero'
 import ValueProps from '../components/ValueProps/ValueProps'

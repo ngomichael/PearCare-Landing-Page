@@ -1,13 +1,6 @@
 import React from 'react'
 import styles from './header.module.css'
-import {
-  Link,
-  Element,
-  Events,
-  animateScroll as scroll,
-  scrollSpy,
-  scroller,
-} from 'react-scroll'
+import { Link, animateScroll as scroll } from 'react-scroll'
 
 const navLinks = [
   {

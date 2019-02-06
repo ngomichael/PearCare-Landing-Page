@@ -1,5 +1,4 @@
 import React from 'react'
-import pikachu from '../../images/pikachu.jpg'
 import styles from './ValueProp.module.css'
 
 const ValueProp = ({ value }) => {
