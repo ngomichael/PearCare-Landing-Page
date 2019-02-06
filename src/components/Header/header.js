@@ -24,10 +24,14 @@ const navLinks = [
   },
 ]
 
+const scrollToTop = () => {
+  scroll.scrollToTop()
+}
+
 const Header = () => (
   <header className={styles.container}>
     <div className={styles.nameAndNavContainer}>
-      <h1 className={styles.productName}>
+      <h1 className={styles.productName} onClick={scrollToTop}>
         Pear<i>Care</i>
       </h1>
       <ul className={styles.navContainer}>

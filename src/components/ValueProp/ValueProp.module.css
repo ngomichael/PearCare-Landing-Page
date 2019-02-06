@@ -3,9 +3,11 @@
 }
 
 .icon {
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
+  width: 75px;
+  min-width: 75px;
+  margin-right: 25px;
+  margin-bottom: 15px;
+  color: #71da71;
 }
 
 .valuePropContainer {

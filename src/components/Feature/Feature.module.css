@@ -1,6 +1,7 @@
 .container {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   margin-bottom: 55px;
   margin-right: 5px;
 }
@@ -9,6 +10,8 @@
   width: 75px;
   min-width: 75px;
   margin-right: 25px;
+  margin-bottom: 15px;
+  color: #71da71;
 }
 
 .featureContainer {
