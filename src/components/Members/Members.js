@@ -5,6 +5,14 @@ import krystalPhoto from '../../images/krystal.png'
 import christinePhoto from '../../images/christine.png'
 import danielPhoto from '../../images/daniel.png'
 import Member from '../Member/Member'
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from 'react-scroll'
 
 const members = [
   {

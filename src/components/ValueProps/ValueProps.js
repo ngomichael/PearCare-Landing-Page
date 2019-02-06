@@ -1,6 +1,14 @@
 import React from 'react'
 import styles from './ValueProps.module.css'
 import ValueProp from '../ValueProp/ValueProp'
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from 'react-scroll'
 
 const valueProps = [
   {

@@ -1,6 +1,13 @@
 import React from 'react'
 import styles from './index.module.css'
-
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from 'react-scroll'
 import Layout from '../components/layout'
 import Hero from '../components/Hero/Hero'
 import ValueProps from '../components/ValueProps/ValueProps'
@@ -13,21 +20,21 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className={styles.container}>
-      <section className={styles.hero}>
+      <Element className={styles.hero}>
         <Hero />
-      </section>
+      </Element>
       <Separater />
-      <section className={styles.valueProps}>
+      <Element className={styles.valueProps} name="ValueProps">
         <ValueProps />
-      </section>
+      </Element>
       <Separater />
-      <section className={styles.features}>
+      <Element className={styles.features} name="Features">
         <Features />
-      </section>
+      </Element>
       <Separater />
-      <section className={styles.valueProps}>
+      <Element className={styles.valueProps} name="Team">
         <Members />
-      </section>
+      </Element>
     </div>
   </Layout>
 )

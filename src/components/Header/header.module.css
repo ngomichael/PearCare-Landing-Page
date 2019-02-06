@@ -1,11 +1,13 @@
 .container {
+  position: fixed;
   display: flex;
   justify-content: center;
-  border-top: 7px solid #3e5a92;
+  border-top: 7px solid #71da71;
   background: rgb(255, 255, 255);
   padding: 1rem 0 0 0;
-  margin-bottom: 75px;
+  /* margin-bottom: 75px; */
   box-shadow: 0 4px 6px hsla(0, 0%, 0%, 0.2);
+  width: 100%;
 }
 
 .nameAndNavContainer {
@@ -32,6 +34,14 @@
   color: hsl(228, 21%, 31%);
   font-size: 20px;
   font-weight: 700;
+}
+
+.navButton:hover {
+  cursor: pointer;
+}
+
+.active {
+  color: #71da71;
 }
 
 @media (max-width: 768px) {

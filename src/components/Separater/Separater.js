@@ -1,9 +1,17 @@
 import React from 'react'
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from 'react-scroll'
 
-const Separater = ({ id }) => {
+const Separater = ({ name }) => {
   return (
-    <div
-      id={id}
+    <Element
+      name={name}
       style={{
         width: '50%',
         height: '5px',

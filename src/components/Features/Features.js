@@ -3,6 +3,14 @@ import styles from './Features.module.css'
 import Feature from '../Feature/Feature'
 import searchIcon from '../../icons/search.svg'
 import messageIcon from '../../icons/message-circle.svg'
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from 'react-scroll'
 
 const features = [
   {

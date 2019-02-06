@@ -1,18 +1,26 @@
 import React from 'react'
 import styles from './header.module.css'
+import {
+  Link,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+  scroller,
+} from 'react-scroll'
 
 const navLinks = [
   {
-    title: 'Problem',
-    id: 'values',
+    title: 'Solution',
+    name: 'ValueProps',
   },
   {
     title: 'Features',
-    id: 'features',
+    name: 'Features',
   },
   {
     title: 'Team',
-    id: 'team',
+    name: 'Team',
   },
 ]
 
@@ -24,7 +32,17 @@ const Header = () => (
       </h1>
       <ul className={styles.navContainer}>
         {navLinks.map(link => (
-          <li className={styles.navButton}>{link.title}</li>
+          <li className={styles.navButton}>
+            <Link
+              to={link.name}
+              activeClass={styles.active}
+              smooth={true}
+              duration={1000}
+              delay={0}
+            >
+              {link.title}
+            </Link>
+          </li>
         ))}
       </ul>
     </div>
