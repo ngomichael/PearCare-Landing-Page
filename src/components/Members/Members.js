@@ -33,7 +33,7 @@ const members = [
     name: 'Daniel Colina',
     role: 'Full-Stack Developer',
     major: 'iSchool • Informatics',
-    about: '',
+    about: 'World Traveler',
     picture: danielPhoto,
   },
 ]
