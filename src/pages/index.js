@@ -6,6 +6,7 @@ import Hero from '../components/Hero/Hero'
 import ValueProps from '../components/ValueProps/ValueProps'
 import Features from '../components/Features/Features'
 import Members from '../components/Members/Members'
+import Contact from '../components/Contact/Contact'
 import Separater from '../components/Separater/Separater'
 import SEO from '../components/seo'
 
@@ -28,6 +29,9 @@ const IndexPage = () => (
       <Element className={styles.valueProps} name="Team">
         <Members />
       </Element>
+      <div>
+        <Contact />
+      </div>
     </div>
   </Layout>
 )

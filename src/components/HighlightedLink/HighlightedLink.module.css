@@ -1,0 +1,15 @@
+.link {
+  display: inline;
+  color: hsla(0, 0%, 0%, 1);
+  font-weight: var(--fw-4);
+  background: linear-gradient(
+    to top,
+    rgba(255, 215, 0, 0.4) 35%,
+    transparent 35%
+  );
+  transition: background 250ms ease;
+}
+
+.link:hover {
+  background: hsla(51, 100%, 50%, 1);
+}

@@ -29,7 +29,7 @@ const Header = () => (
       </h1>
       <ul className={styles.navContainer}>
         {navLinks.map(link => (
-          <li className={styles.navButton}>
+          <li className={styles.navButton} key={link.title}>
             <Link to={link.name} smooth={true} duration={1000} delay={0}>
               {link.title}
             </Link>

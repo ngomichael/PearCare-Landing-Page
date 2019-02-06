@@ -15,10 +15,9 @@ const valueProps = [
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="feather feather-clock"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
         <circle cx="12" cy="12" r="10" />
         <polyline points="12 6 12 12 16 14" />
@@ -37,10 +36,9 @@ const valueProps = [
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="feather feather-refresh-cw"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
         <polyline points="23 4 23 10 17 10" />
         <polyline points="1 20 1 14 7 14" />
@@ -60,10 +58,9 @@ const valueProps = [
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="feather feather-edit"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       >
         <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7" />
         <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z" />
@@ -86,7 +83,7 @@ const ValueProps = () => {
       </div>
       <div className={styles.valuePropsContainer}>
         {valueProps.map(valueProp => (
-          <ValueProp value={valueProp} />
+          <ValueProp value={valueProp} key={valueProp.title} />
         ))}
       </div>
     </div>

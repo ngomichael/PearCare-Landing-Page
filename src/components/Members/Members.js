@@ -35,7 +35,7 @@ const Members = () => {
       <h1 className={styles.title}>PearCare Team</h1>
       <div className={styles.membersContainer}>
         {members.map(member => (
-          <Member member={member} />
+          <Member member={member} key={member.name} />
         ))}
       </div>
     </div>

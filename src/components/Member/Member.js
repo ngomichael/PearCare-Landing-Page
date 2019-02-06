@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './Member.module.css'
 
 const Member = ({ member }) => {
-  console.log(member)
   return (
     <div className={styles.container}>
       <img src={member.picture} className={styles.image} alt="Team Member" />
