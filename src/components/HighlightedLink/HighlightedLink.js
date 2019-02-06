@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styles from './HighlightedLink.module.css'
 
-const HighlightedLink = ({ site, target, children }) => {
+const HighlightedLink = ({ site, target = '', children }) => {
   return (
     <a
       href={site}

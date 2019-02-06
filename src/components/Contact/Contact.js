@@ -7,12 +7,22 @@ const Contact = () => {
     <div className={styles.container}>
       <div className={styles.contactInfoContainer}>
         <h1>Contact Us</h1>
-        <p>You can email us at michael_ngo@live.com with any questions</p>
+        <p>
+          If you have any questions, please{' '}
+          <HighlightedLink
+            site="mailto:michael_ngo@live.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            email us
+          </HighlightedLink>{' '}
+          and we'll get back to you!{' '}
+        </p>
       </div>
       <div className={styles.surveyContainer}>
         <p>
-          If you've ever serached for mental healthcare or if you're a provider,
-          we'd love it if you could fill out these surveys!
+          Also, if you've ever searched for mental healthcare or if you're a
+          provider, we'd love it if you could fill out these surveys!
         </p>
         <HighlightedLink
           site="https://docs.google.com/forms/d/1JKVHYDA44EgklF8G--Q1U9dnZ77go8FYfInyxJIeEOc/edit"

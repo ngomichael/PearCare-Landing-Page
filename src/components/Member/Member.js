@@ -8,6 +8,8 @@ const Member = ({ member }) => {
       <div className={styles.informationContainer}>
         <p className={styles.name}>{member.name}</p>
         <p className={styles.role}>{member.role}</p>
+        <p className={styles.role}>{member.major}</p>
+        <p className={styles.role}>{member.about}</p>
       </div>
     </div>
   )

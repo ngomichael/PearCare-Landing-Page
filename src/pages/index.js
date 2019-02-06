@@ -29,6 +29,7 @@ const IndexPage = () => (
       <Element className={styles.valueProps} name="Team">
         <Members />
       </Element>
+      <Separater />
       <div>
         <Contact />
       </div>
