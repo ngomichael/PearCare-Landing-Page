@@ -26,7 +26,15 @@ const members = [
     name: 'Krystal Liang',
     role: 'PM and UX Researcher',
     major: 'iSchool • Informatics',
-    about: 'Hypebeast',
+    about: (
+      <HighlightedLink
+        site="https://www.instagram.com/eatwithher/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        @eatwithher
+      </HighlightedLink>
+    ),
     picture: krystalPhoto,
   },
   {
