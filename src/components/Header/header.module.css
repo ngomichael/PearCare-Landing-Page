@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: 7px solid #71da71;
+  border-top: 7px solid hsl(174, 74%, 39%);
   background: rgb(255, 255, 255);
   padding: 1rem 0 0 0;
   box-shadow: 0 4px 6px hsla(0, 0%, 0%, 0.2);
@@ -15,9 +15,15 @@
 .nameAndNavContainer {
   display: flex;
   justify-content: space-around;
-  align-items: baseline;
+  align-items: center;
+  /* align-items: baseline; */
   width: 95%;
   max-width: 1400px;
+}
+
+.logo {
+  margin-top: 5px;
+  width: 200px;
 }
 
 .productName {
@@ -25,7 +31,7 @@
   font-size: 30px;
 }
 
-.productName:hover {
+.logo:hover {
   cursor: pointer;
 }
 

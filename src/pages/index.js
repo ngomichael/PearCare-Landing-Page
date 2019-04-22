@@ -17,7 +17,7 @@ const IndexPage = () => (
       <Element className={styles.hero}>
         <Hero />
       </Element>
-      <Separater />
+      {/* <Separater /> */}
       <Element className={styles.valueProps} name="ValueProps">
         <ValueProps />
       </Element>

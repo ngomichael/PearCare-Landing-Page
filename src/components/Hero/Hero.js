@@ -16,11 +16,8 @@ const Hero = () => {
             lifestyle.
           </p>
         </div>
-        <div className={styles.buttonContainer}>
-          <Button>Find a provider</Button>
-        </div>
+        <Button>Find a provider</Button>
       </div>
-      <UndrawHire height="320px" style={{ width: '40%', minWidth: '450px' }} />
     </div>
   )
 }
