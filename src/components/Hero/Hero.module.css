@@ -1,11 +1,12 @@
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  width: 80%;
-  height: calc(100vh - 80px);
-  /* margin: 100px 0 100px 0; */
+  width: 90%;
+
+  /* height: calc(100vh - 80px); */
+  margin: 200px 0 150px 0;
 }
 
 .image {
@@ -15,9 +16,28 @@
   border-radius: 50%;
 }
 
-.sloganContainer {
+.undraw {
+  min-width: 475px;
+}
+
+/* .sloganContainer {
   width: 50%;
-  text-align: center;
+  text-align: left;
+} */
+
+.sloganButtonContainer {
+  width: 50%;
+  text-align: left;
+}
+
+.supplementaryText {
+  font-size: 25px;
+  color: hsl(228, 21%, 31%);
+  line-height: 1.5;
+}
+
+.buttonContainer {
+  display: inline;
 }
 
 .slogan {
@@ -26,14 +46,14 @@
 }
 
 @media (max-width: 1040px) {
-  .container {
+  /* .container {
     justify-content: center;
   }
 
   .sloganContainer {
     width: 80%;
     text-align: center;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
