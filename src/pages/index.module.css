@@ -8,6 +8,15 @@
 .hero {
   display: flex;
   justify-content: center;
+  height: 100vh;
+  width: 100%;
+  max-width: 100%;
+}
+
+.valueProps {
+  display: flex;
+  justify-content: center;
+  /* height: 800px; */
   width: 100%;
   max-width: 1400px;
 }
@@ -17,13 +26,7 @@
   justify-content: center;
   width: 100%;
   max-width: 1400px;
-}
-
-.valueProps {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 1400px;
+  /* height: 800px; */
 }
 
 .teamMembers {

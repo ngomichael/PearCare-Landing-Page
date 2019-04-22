@@ -1,11 +1,19 @@
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  width: 80%;
-  height: 80vh;
-  margin: 125px 0 100px 0;
+  width: 100%;
+  /* height: 800px; */
+  /* height: 100%; */
+  background-color: hsla(0, 0%, 0%, 0.55);
+  background: linear-gradient(rgba(20, 20, 20, 0.65), rgba(20, 20, 20, 0.65)),
+    url('../../images/help.jpg');
+  background-size: cover;
+
+  /* background-image: url('../../images/help.jpg'); */
+  height: calc(100vh - 80px);
+  /* margin: 200px 0 150px 0; */
 }
 
 .image {
@@ -15,9 +23,30 @@
   border-radius: 50%;
 }
 
+.undraw {
+  min-width: 475px;
+}
+
 .sloganContainer {
-  width: 50%;
+  width: 75%;
   text-align: center;
+  color: white;
+}
+
+.sloganButtonContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.supplementaryText {
+  font-size: 25px;
+  color: rgb(230, 230, 230);
+  line-height: 1.5;
+}
+
+.buttonContainer {
+  display: inline;
 }
 
 .slogan {
@@ -26,19 +55,18 @@
 }
 
 @media (max-width: 1040px) {
-  .container {
+  /* .container {
     justify-content: center;
   }
-
   .sloganContainer {
     width: 80%;
     text-align: center;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
   .container {
-    padding: 100px 0 100px 0;
+    /* padding: 100px 0 100px 0; */
   }
 
   .image {

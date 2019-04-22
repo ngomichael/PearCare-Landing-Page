@@ -1,0 +1,63 @@
+.button {
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  color: white;
+  outline: none;
+  border: none;
+  box-shadow: 0 1px 3px hsla(0, 0%, 0%, 0.2);
+  transition: background-color 300ms ease;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.primary {
+  background-color: hsl(174, 74%, 39%);
+}
+
+.primary:hover {
+  background-color: hsl(180, 100%, 20%);
+}
+
+.warning {
+}
+
+.danger {
+}
+
+.success {
+}
+
+.small {
+  height: 38px;
+  width: 100px;
+}
+
+.medium {
+  height: 50px;
+  width: 200px;
+}
+
+.large {
+  height: 50px;
+  width: 270px;
+}
+
+@media (max-width: 768px) {
+  .button {
+    font-size: 14px;
+  }
+
+  .medium {
+    height: 45px;
+    width: 170px;
+  }
+
+  .large {
+    height: 45px;
+    width: 250px;
+  }
+}
