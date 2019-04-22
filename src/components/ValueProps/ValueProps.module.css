@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   width: 100%;
-  padding: 100px 0 0 0;
+  /* margin: 100px 0 0 0; */
 }
 
 .valuePropsContainer {
@@ -33,14 +33,14 @@
   hyphens: auto;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .valuePropsContainer {
     width: 40%;
   }
-}
+} */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .container {
     padding: 100px 0 100px 0;
   }
-}
+} */

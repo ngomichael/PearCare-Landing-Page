@@ -17,11 +17,10 @@ const IndexPage = () => (
       <Element className={styles.hero}>
         <Hero />
       </Element>
-      {/* <Separater /> */}
       <Element className={styles.valueProps} name="ValueProps">
         <ValueProps />
       </Element>
-      <Separater />
+      {/* <Separater />
       <Element className={styles.features} name="Features">
         <Features />
       </Element>
@@ -32,7 +31,7 @@ const IndexPage = () => (
       <Separater />
       <div>
         <Contact />
-      </div>
+      </div> */}
     </div>
   </Layout>
 )
